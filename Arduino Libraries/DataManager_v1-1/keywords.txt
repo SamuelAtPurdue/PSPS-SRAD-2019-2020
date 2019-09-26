@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For DataManager
+#######################################
+DataManager_v1-0 (KEYWORD1)
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DataManager	KEYWORD1
+combo_t	    KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+writeChar	  KEYWORD2
+writeInt	  KEYWORD2
+writeLong	  KEYWORD2
+writeFloat	KEYWORD2
+
+readChar	KEYWORD2
+readInt	  KEYWORD2
+readLong	KEYWORD2
+readFloat	KEYWORD2
+
+printLongAsChar	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
