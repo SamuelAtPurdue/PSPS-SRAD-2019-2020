@@ -1,16 +1,13 @@
 #include <stdio.h>
-#include "Coord.h"
+
+#include "Vector.h"
 
 int main() {
 
-    Coord c1 = Coord(1,2,4);
-    printf("%lf\n",c1.get(1));
-
-    double d[3];
-    Coord c2 = 4 * c1;
-    c2.get(d);
+    Vector c1 = Vector(1,0,0);
+    Vector c2 = Vector(1,1,0);
 
 
-    printf("%lf", d[2]);
+    printf("%f", angleD(c1,c2));
     return 0;
 }
