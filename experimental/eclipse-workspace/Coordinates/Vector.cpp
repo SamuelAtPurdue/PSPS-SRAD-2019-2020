@@ -4,11 +4,11 @@
  *  Created on: Oct 2, 2019
  *      Author: Jeff
  */
-#define _USE_MATH_DEFINES
-
 #include "Vector.h"
 #include <cstring>
 #include <math.h>
+
+#define _USE_MATH_DEFINES
 
 // Private Functions
 void Vector::_calc_mag() {
@@ -36,22 +36,22 @@ Vector::Vector(double *x) {
     _calc_mag();
 }
 
-Vector::Vector(const Vector &other) {
+Vector::Vector(const Vector& other) {
     memcpy(_coords, other._coords, sizeof(_coords));
     _calc_mag();
 }
 
-Vector::Vector(Vector &&other) {
+Vector::Vector(Vector&& other) {
     memcpy(_coords, other._coords, sizeof(_coords));
     _calc_mag();
 }
 
-Vector& Vector::operator=(const Vector &other) {
+Vector& Vector::operator=(const Vector& other) {
     //memcpy(_coords, other._coords, sizeof(_coords));
     return *this;
 }
 
-Vector& Vector::operator=(Vector &&other) {
+Vector& Vector::operator=(Vector&& other) {
     //memcpy(_coords, other._coords, sizeof(_coords));
     return *this;
 }
@@ -135,7 +135,6 @@ Vector operator/(const Vector v, const double d) {
     return Vector(coords);
 }
 
-
 double dot(Vector v1, Vector v2) {
     double result = 0;
 
@@ -151,4 +150,22 @@ double angle(Vector v1, Vector v2) {
 
 double angleD(Vector v1, Vector v2) {
     return angle(v1, v2) * 180 / M_PI;
+}
+
+Vector projV(Vector target, Vector v) {
+    return dot(target, v) / target.getMag() / target.getMag() * target;
+}
+
+Vector projP(Vector normal, Vector v) {
+    return v - projV(normal, v);
+}
+
+Vector cross(Vector v1, Vector v2) {
+    double coords[3];
+
+    coords[0] = v1.get(1) * v2.get(2) - v2.get(1) * v1.get(2);
+    coords[1] = v2.get(0) * v1.get(2) - v1.get(0) * v2.get(2);
+    coords[2] = v1.get(0) * v2.get(1) - v2.get(0) * v1.get(1);
+
+    return Vector(coords);
 }

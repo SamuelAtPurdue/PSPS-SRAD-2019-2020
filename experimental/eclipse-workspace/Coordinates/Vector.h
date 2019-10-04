@@ -19,10 +19,10 @@ public:
     Vector();
     Vector(double x1, double x2, double x3);
     Vector(double *x);
-    Vector(const Vector &other);
-    Vector(Vector &&other);
-    Vector& operator=(const Vector &other);
-    Vector& operator=(Vector &&other);
+    Vector(const Vector& other);
+    Vector(Vector&& other);
+    Vector& operator=(const Vector& other);
+    Vector& operator=(Vector&& other);
 
     double get(int n);
     void get(double *target);
@@ -50,9 +50,12 @@ Vector operator*(const Vector v, const double d);
 Vector operator*(const double d, const Vector v);
 Vector operator/(const Vector v, const double d);
 
-double dot(const Vector v1, const Vector v2);
+double dot(Vector v1, Vector v2);
 double angle(Vector v1, Vector v2);
 double angleD(Vector v1, Vector v2);
 
+Vector projV(Vector target, Vector v);
+Vector projP(Vector normal, Vector v);
 
+Vector cross(Vector v1, Vector v2);
 #endif /* VECTOR_H_ */
