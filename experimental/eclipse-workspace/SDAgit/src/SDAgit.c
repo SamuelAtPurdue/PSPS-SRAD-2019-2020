@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : SDATest.c
+ Name        : SDAgit.c
  Author      : Jeffrey Kaji
  Version     :
  Copyright   : Your copyright notice
@@ -13,6 +13,5 @@
 
 int main(void) {
 	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	puts("Test");
 	return EXIT_SUCCESS;
 }
