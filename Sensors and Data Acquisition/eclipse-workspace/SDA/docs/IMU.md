@@ -52,4 +52,5 @@ None.
 Pointer to the magnetic field vector from the IMU _(Vector*)_
 
 <br/>
+
 ##### Return to [README.md](README.md)

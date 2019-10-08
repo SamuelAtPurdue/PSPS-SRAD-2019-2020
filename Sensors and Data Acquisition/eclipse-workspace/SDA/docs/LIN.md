@@ -24,4 +24,5 @@ None.
 The acceleration read from the sensor _(double)_
 
 <br/>
+
 ##### Return to [README.md](README.md)
