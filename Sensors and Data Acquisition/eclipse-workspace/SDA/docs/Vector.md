@@ -219,4 +219,4 @@ rad: angle in radians _(double)_
 Angle in degrees _(double)_
 
 <br/>
-###### Return to [README.md](README.md)
+##### Return to [README.md](README.md)

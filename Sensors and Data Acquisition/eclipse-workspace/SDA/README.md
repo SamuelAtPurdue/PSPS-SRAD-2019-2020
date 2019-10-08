@@ -9,9 +9,9 @@ This project can be found in: <br/>
 ["/PSPS-SRAD-2019-2020/Sensors and Data Acquisition/eclipse-workspace/SDA/"](../SDA/)
 
 This project's source can be found in: <br/>
-["/src/"](/src/) <br/><br/>
+["/src/"](../SDA/src/) <br/><br/>
 This project's documentation can be found in: <br/>
-["/docs/"](/docs/) <br/><br/>
+["/docs/"](../SDA/docs/) <br/><br/>
 
 To setup a launch configuration, first build the project, then select *SDA.exe* 
 as the target application, which can be found in the build folder 
