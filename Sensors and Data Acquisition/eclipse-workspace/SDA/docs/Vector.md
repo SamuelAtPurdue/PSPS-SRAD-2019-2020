@@ -5,8 +5,8 @@ This library was last edited by Jeffrey Kaji on *8 Oct 2019*. <br/>
 This is a C library that performs vector math. <br/>
 Created for use by Purdue Space Program Solids. <br/><br/>
 __Required Files:__
-* _"Vector.h"_
-* _"Vector.c"_
+* [Vector.h](../src/Vector.h)
+* [Vector.c](../src/Vector.c)
 
 ## Typedefs
 #### struct _Vector_
@@ -217,3 +217,6 @@ double d = rad2deg(rad);
 rad: angle in radians _(double)_
 ##### Returns
 Angle in degrees _(double)_
+
+<br/>
+###### Return to [README.md](README.md)

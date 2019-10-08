@@ -3,25 +3,32 @@ This library was last edited by Jeffrey Kaji on *8 Oct 2019*. <br/>
 
 ## Description
 This is a C library that is designed for concise importing of all modules needed for SDA, 
-to be used in conjunction with Vector, Matrix, Sensors, BMP, GPS, IMU, LIN. <br/>
+to be used in conjunction with 
+[Vector](Vector.md),
+[Matrix](Matrix.md),
+[Sensors](Sensors.md),
+[BMP](BMP.md),
+[GPS](GPS.md),
+[IMU](IMU.md),
+[LIN](LIN.md). <br/>
 Created for use by Purdue Space Program Solids. <br/><br/>
 __Required Files:__
-* _"Vector.h"_
-* _"Vector.c"_
-* _"Matrix.h"_
-* _"Matrix.c"_ <br/><br/>
-* _"Sensors.h"_
-* _"Sensors.c"_
-* _"BMP.h"_
-* _"BMP.c"_
-* _"GPS.h"_
-* _"GPS.c"_
-* _"IMU.h"_
-* _"IMU.c"_
-* _"LIN.h"_
-* _"LIN.c"_ <br/><br/>
-* _"SDA_INCLUDE.h"_
-* _"SDA_INCLUDE.c"_
+* [Vector.h](../src/Vector.h)
+* [Vector.c](../src/Vector.c)
+* [Matrix.h](../src/Matrix.h)
+* [Matrix.c](../src/Matrix.c) <br/><br/>
+* [Sensors.h](../src/Sensors.h)
+* [Sensors.c](../src/Sensors.c)
+* [BMP.h](../src/BMP.h)
+* [BMP.c](../src/BMP.c)
+* [GPS.h](../src/GPS.h)
+* [GPS.c](../src/GPS.c)
+* [IMU.h](../src/IMU.h)
+* [IMU.c](../src/IMU.c)
+* [LIN.h](../src/LIN.h)
+* [LIN.c](../src/LIN.c) <br/><br/>
+* [SDA_INCLUDE.h](../src/SDA_INCLUDE.h)
+* [SDA_INCLUDE.c](../src/SDA_INCLUDE.c)
 
 ## Methods
 * **setup()**
@@ -36,3 +43,6 @@ setup();
 None.
 ##### Returns
 void
+
+<br/>
+###### Return to [README.md](README.md)

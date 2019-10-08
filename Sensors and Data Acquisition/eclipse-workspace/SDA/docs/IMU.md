@@ -3,13 +3,13 @@ This library was last edited by Jeffrey Kaji on *8 Oct 2019*. <br/>
 
 ## Description
 This is a C library that will implement the 9-axis Inertial Measurement Unit, 
-to be used in conjunction with Sensors and Vector. <br/>
+to be used in conjunction with [Sensors](Sensors.md) and [Vector](Vector.md). <br/>
 Created for use by Purdue Space Program Solids. <br/><br/>
 __Required Files:__
-* _"Vector.h"_
-* _"Vector.c"_
-* _"IMU.h"_
-* _"IMU.c"_
+* [Vector.h](../src/Vector.h)
+* [Vector.c](../src/Vector.c)
+* [IMU.h](../src/IMU.h)
+* [IMU.c](../src/IMU.c)
 
 ## Methods
 * **IMU_getACC()**
@@ -50,3 +50,6 @@ Vector* v = IMU_getMAG();
 None.
 ##### Returns
 Pointer to the magnetic field vector from the IMU _(Vector*)_
+
+<br/>
+###### Return to [README.md](README.md)

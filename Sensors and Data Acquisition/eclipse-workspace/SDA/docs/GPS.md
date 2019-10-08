@@ -3,13 +3,13 @@ This library was last edited by Jeffrey Kaji on *8 Oct 2019*. <br/>
 
 ## Description
 This is a C library that will implement the GPS receiver, 
-to be used in conjunction with Sensors and Vector. <br/>
+to be used in conjunction with [Sensors](Sensors.md) and [Vector](Vector.md). <br/>
 Created for use by Purdue Space Program Solids. <br/><br/>
 __Required Files:__
-* _"Vector.h"_
-* _"Vector.c"_
-* _"GPS.h"_
-* _"GPS.c"_
+* [Vector.h](../src/Vector.h)
+* [Vector.c](../src/Vector.c)
+* [GPS.h](../src/GPS.h)
+* [GPS.c](../src/GPS.c)
 
 ## Methods
 * **GPS_getLLA()**
@@ -49,3 +49,6 @@ unsigned int u = GPS_getTME();
 None.
 ##### Returns
 The GPS time _(unsigned int)_
+
+<br/>
+###### Return to [README.md](README.md)

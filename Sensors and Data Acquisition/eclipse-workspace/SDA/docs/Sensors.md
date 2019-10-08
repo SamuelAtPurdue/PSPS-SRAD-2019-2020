@@ -3,30 +3,23 @@ This library was last edited by Jeffrey Kaji on *8 Oct 2019*. <br/>
 
 ## Description
 This is a C library that will implement the sensors for SDA, 
-to be used in conjunction with BMP, GPS, IMU, LIN. <br/>
+to be used in conjunction with 
+[BMP](BMP.md),
+[GPS](GPS.md),
+[IMU](IMU.md),
+[LIN](LIN.md). <br/>
 Created for use by Purdue Space Program Solids. <br/><br/>
 __Required Files:__
-* _"BMP.h"_
-* _"BMP.c"_
-* _"GPS.h"_
-* _"GPS.c"_
-* _"IMU.h"_
-* _"IMU.c"_
-* _"LIN.h"_
-* _"LIN.c"_ <br/><br/>
-* _"Sensors.h"_
-* _"Sensors.c"_
+* [BMP.h](../src/BMP.h)
+* [BMP.c](../src/BMP.c)
+* [GPS.h](../src/GPS.h)
+* [GPS.c](../src/GPS.c)
+* [IMU.h](../src/IMU.h)
+* [IMU.c](../src/IMU.c)
+* [LIN.h](../src/LIN.h)
+* [LIN.c](../src/LIN.c) <br/><br/>
+* [Sensors.h](../src/Sensors.h)
+* [Sensors.c](../src/Sensors.c)
 
-## Methods
-* **()**
-
-### ()
-##### Description
 <br/>
-**NEEDS TO BE IMPLEMENTED**
-##### Syntax
-();
-##### Parameters
-
-##### Returns
-_()_
+###### Return to [README.md](README.md)

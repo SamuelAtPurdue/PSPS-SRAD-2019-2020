@@ -3,17 +3,17 @@ This library was last edited by Jeffrey Kaji on *8 Oct 2019*. <br/>
 
 ## Description
 This is a C library that performs matrix math, 
-to be used in conjunction with Vector. <br/>
+to be used in conjunction with [Vector](Vector.md). <br/>
 Created for use by Purdue Space Program Solids. <br/><br/>
 __Required Files:__
-* _"Vector.h"_
-* _"Vector.c"_
-* _"Matrix.h"_
-* _"Matrix.c"_
+* [Vector.h](../src/Vector.h)
+* [Vector.c](../src/Vector.c)
+* [Matrix.h](../src/Matrix.h)
+* [Matrix.c](../src/Matrix.c)
 
 ## Typedefs
 #### struct _Matrix_
-&ensp;&ensp;&ensp;&ensp;Vectir **_e_**[3] 
+&ensp;&ensp;&ensp;&ensp;Vector **_e_**[3] 
 
 ## Methods
 * **Matrix_new()**
@@ -81,3 +81,6 @@ printM(m);
 m: pointer to matrix to print _(Matrix*)_
 ##### Returns
 void
+
+<br/>
+###### Return to [README.md](README.md)
