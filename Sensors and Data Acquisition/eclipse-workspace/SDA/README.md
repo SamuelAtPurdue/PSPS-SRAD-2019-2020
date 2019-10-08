@@ -18,4 +18,4 @@ as the target application, which can be found in the build folder
 (ex. "Debug" or "Run").
 
 ## 
-#### When committing, please provide/edit corresponding documentation (found in [/docs/](/docs))
+#### When committing, please provide/edit corresponding documentation (found in [/docs/](../SDA/docs/))
