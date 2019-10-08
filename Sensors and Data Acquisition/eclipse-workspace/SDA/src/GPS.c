@@ -18,3 +18,9 @@ unsigned char GPS_getSAT() {
 	unsigned char sat = 0;
 	return sat;
 }
+
+unsigned int GPS_getTME() {
+	//TODO Implement GPS_getTME()
+	unsigned int tme = 0;
+	return tme;
+}

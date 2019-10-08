@@ -14,5 +14,6 @@
 
 Vector* GPS_getLLA();
 unsigned char GPS_getSAT();
+unsigned int GPS_getTME();
 
 #endif /* GPS_H_ */

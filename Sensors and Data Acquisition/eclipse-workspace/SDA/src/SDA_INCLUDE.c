@@ -8,4 +8,5 @@
 #include "SDA_INCLUDE.h"
 
 void setup() {
+	//XXX Nothing needed in setup() yet
 }
