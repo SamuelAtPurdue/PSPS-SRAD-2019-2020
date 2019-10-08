@@ -2,7 +2,7 @@
  * BMP.c
  *
  *  Created on: Oct 7, 2019
- *      Author: Jeff
+ *      Author: Jeffrey Kaji
  */
 
 #include "BMP.h"

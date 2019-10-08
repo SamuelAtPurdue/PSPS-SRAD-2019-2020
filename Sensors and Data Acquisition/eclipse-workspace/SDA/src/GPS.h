@@ -2,7 +2,7 @@
  * GPS.h
  *
  *  Created on: Oct 7, 2019
- *      Author: Jeff
+ *      Author: Jeffrey Kaji
  */
 
 #ifndef VECTOR_H_

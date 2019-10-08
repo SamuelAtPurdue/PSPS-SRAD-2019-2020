@@ -2,7 +2,7 @@
  * LIN.h
  *
  *  Created on: Oct 7, 2019
- *      Author: Jeff
+ *      Author: Jeffrey Kaji
  */
 
 #ifndef LIN_H_

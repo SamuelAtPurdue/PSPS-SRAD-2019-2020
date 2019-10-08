@@ -33,7 +33,7 @@ __Required Files:__
 ## Methods
 * **setup()**
 
-### ()
+### setup()
 ##### Description
 Sets everything up. <br/>
 Does nothing. Nothing is needed yet.
