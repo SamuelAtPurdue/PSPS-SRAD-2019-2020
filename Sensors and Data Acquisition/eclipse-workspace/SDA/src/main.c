@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : main.c
- Author      : Jeffrey Kaji
+ Author      : Bahaa Elshimy, Jeffrey Kaji, Matthew Wilson
  Version     :
  Copyright   : Intended for use by Purdue Space Program Solids
  Description : Main file for debug
@@ -9,15 +9,16 @@
  ============================================================================
  */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include "SDA_INCLUDE.h"
+#include "Bahaa.h"
+#include "Jeff.h"
+#include "Matt.h"
 
 int main(void) {
+	int exit_status;
 
-	setup();
+	exit_status = JeffMain();
+	//exit_status = BahaaMain();
+	//exit_status = MattMain();
 
-
-
-	return EXIT_SUCCESS;
+	return exit_status;
 }
